@@ -7,19 +7,25 @@ const {
   addRepoCommand,
   setRepoCommand,
   deleteRepoCommand,
-  getRepoListCommand
+  getRepoListCommand,
+  randomCommand,
+  fetchCommand,
+  openCommand
 } = require('./lib/core/cli')
 
 /* get program help */
 commanderHelp(program)
 
 /* generator command */
+//!todo addCpnCommand(program) 
 createCommand(program)
-addCpnCommand(program)
 addRepoCommand(program)
 setRepoCommand(program)
 getRepoListCommand(program)
 deleteRepoCommand(program)
+randomCommand(program)
+fetchCommand(program)
+openCommand(program)
 
 /* add version */
 program.version(pkg.version)
