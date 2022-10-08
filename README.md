@@ -3,6 +3,7 @@ cli  for  vue-template
 
 ### why
 - clone repo easier [finish]
+- search | regex | open broswer | translate(zh <=> en)
 - add (jsx,vue,router,store) template easier [todo]
 
 ### install
