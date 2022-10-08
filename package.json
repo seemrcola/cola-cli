@@ -17,6 +17,8 @@
     "type": "git"
   },
   "dependencies": {
+    "chalk": "4.1.2",
+    "cheerio": "1.0.0-rc.12",
     "colors-console": "^1.0.3",
     "commander": "^9.4.1",
     "download-git-repo": "^3.0.2",
@@ -24,7 +26,11 @@
     "figlet": "^1.5.2",
     "ini": "^3.0.1",
     "inquirer": "^8.0.0",
+    "is-chinese": "^1.4.7",
+    "no-case": "^3.0.4",
     "open": "^8.4.0",
-    "ora": "5.4.1"
+    "ora": "5.4.1",
+    "request": "^2.88.2",
+    "urlencode": "^1.1.0"
   }
 }

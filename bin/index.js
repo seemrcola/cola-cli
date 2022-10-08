@@ -62,11 +62,18 @@ program
     require('../lib/open')(url)
   })
 
-  program
+program
   .command('reg')
   .description('regex list')
   .action(() => {
     require('../lib/regex')()
+  })
+
+program
+  .command('youdao <word>')
+  .description('translate by youdao')
+  .action((word) => {
+    require('../lib/youdao')(word)
   })
 
 /* add version */
