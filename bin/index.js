@@ -76,6 +76,21 @@ program
     require('../lib/youdao')(word)
   })
 
+
+program
+  .command('search <keyword>')
+  .option('-n, --npm', 'search by npm')
+  .option('-s, --stackoverflow', 'search by stackoverflow')
+  .option('-w, --wiki', 'search by wiki')
+  .option('-b, --baidu', 'search by baidu')
+  .option('-g, --github', 'search by github')
+  .option('-d, --default', 'search by google')
+  .option('-a, --all', 'search by all sites')
+  .description('quick search single or mutiple')
+  .action((name, cmd) => {
+    console.log(cmd)
+    require('../lib/search')(name, cmd);
+  });
 /* add version */
 program.version(pkg.version)
 
