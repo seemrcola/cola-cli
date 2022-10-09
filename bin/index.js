@@ -83,6 +83,7 @@ program
   .option('-w, --wiki', 'search by wiki')
   .option('-b, --baidu', 'search by baidu')
   .option('-g, --github', 'search by github')
+  .option('-c, --caniuse', 'search by caniuse')
   .option('-d, --default', 'search by google')
   .option('-a, --all', 'search by all sites')
   .description('quick search single or mutiple')
