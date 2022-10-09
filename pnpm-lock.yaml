@@ -11,7 +11,7 @@ specifiers:
   ini: ^3.0.1
   inquirer: ^8.0.0
   is-chinese: ^1.4.7
-  no-case: ^3.0.4
+  no-case: 2.3.2
   open: ^8.4.0
   ora: 5.4.1
   request: ^2.88.2
@@ -28,7 +28,7 @@ dependencies:
   ini: 3.0.1
   inquirer: 8.2.4
   is-chinese: 1.4.7
-  no-case: 3.0.4
+  no-case: 2.3.2
   open: 8.4.0
   ora: 5.4.1
   request: 2.88.2
@@ -980,10 +980,8 @@ packages:
       is-unicode-supported: 0.1.0
     dev: false
 
-  /lower-case/2.0.2:
-    resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
-    dependencies:
-      tslib: 2.4.0
+  /lower-case/1.1.4:
+    resolution: {integrity: sha512-2Fgx1Ycm599x+WGpIYwJOvsjmXFzTSc34IwDWALRA/8AopUKAVPwfJ+h5+f85BCp0PWmmJcWzEpxOpoXycMpdA==}
     dev: false
 
   /lowercase-keys/1.0.0:
@@ -1042,11 +1040,10 @@ packages:
     resolution: {integrity: sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==}
     dev: false
 
-  /no-case/3.0.4:
-    resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
+  /no-case/2.3.2:
+    resolution: {integrity: sha512-rmTZ9kz+f3rCvK2TD1Ue/oZlns7OGoIWP4fc3llxxRXlOkHKoWPPWJOfFYpITabSow43QJbRIoHQXtt10VldyQ==}
     dependencies:
-      lower-case: 2.0.2
-      tslib: 2.4.0
+      lower-case: 1.1.4
     dev: false
 
   /normalize-url/2.0.1:

@@ -1,12 +1,14 @@
 {
   "name": "undefined-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "cli",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["cli"],
+  "keywords": [
+    "cli"
+  ],
   "author": "seemrcola",
   "license": "ISC",
   "bin": {
@@ -27,7 +29,7 @@
     "ini": "^3.0.1",
     "inquirer": "^8.0.0",
     "is-chinese": "^1.4.7",
-    "no-case": "^3.0.4",
+    "no-case": "2.3.2",
     "open": "^8.4.0",
     "ora": "5.4.1",
     "request": "^2.88.2",
