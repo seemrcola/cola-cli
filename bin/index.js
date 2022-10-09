@@ -91,20 +91,6 @@ program
     require('../lib/search')(name, cmd);
   });
 
-program
-  .command('url <url> <alias>')
-  .option('-l, --list', 'collections')
-  .option('-a, --add', 'add url')
-  .option('-s, --set', 'set url')
-  .option('-d, --delete', 'delete url')
-  .description('enshrine url | delete url | set url | url list')
-  .action((url, alias, options) => {
-    console.log(options)
-    require('../lib/url')(url, alias, options);
-  });
-
-
-
 /* add version */
 program.version(pkg.version)
 
